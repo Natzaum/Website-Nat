@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*
+{
+    font-family: "Poppins";
+    scroll-behavior: smooth !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pagina {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 118px;
+}
+
+section
+{
+    background: linear-gradient(180deg, rgb(40 39 40) 0%, rgba(0,0,0,1) 50%);
+}
+
+section h2
+{
+    font-size: 2.5em;
+    color: #fff;
+}
+
+section p
+{
+    font-size: 1.2em;
+    color: #fff;
+    width: 70%;
+}
