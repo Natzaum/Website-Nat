@@ -1,0 +1,66 @@
+body {
+  background-color: #2a2626;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-left: 650px;
+  display: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+  /* Estilos para a lista */
+  ol {
+    color: #a391b7;
+    padding-left: 20px;
+  }
+
+  /* Estilos para os itens da lista */
+  li {
+    margin-bottom: 10px;
+  }
+
+  /* Estilos para o rótulo */
+  label {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  /* Estilos para a caixa de seleção */
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  /* Estilo para o campo de texto */
+  #novoItem {
+    margin-bottom: 10px;
+  }
+
+  /* Estilo para o botão */
+  button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+ .book{
+  border:2px solid #7b00ff;
+  border-radius: 500px;
+  }
