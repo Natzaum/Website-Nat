@@ -1,0 +1,46 @@
+body{
+    background-color: #f4f4f4;
+}
+
+.fightarea{
+    display: flex;
+    gap: 20px;
+}
+
+#char, #monster{
+    flex: 1;
+}
+
+.lifebar{
+    height: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.lifebar .bar{
+    height: inherit;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.manabar{
+    height: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.manabar .mana{
+    height: inherit;
+    background-color: rgb(68, 0, 255);
+    border-radius: 5px;
+}
+
+.log {
+    border: 1px dotted #999;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.monstrengo{
+    padding-left: 500px;
+}
