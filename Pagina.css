@@ -41,20 +41,26 @@ section p
     width: 70%;
 }
 
+.textInfo
+{
+    padding-top: 10%;
+    width: 80%;
+    padding-left: 25%;
+    color: #fff;
+}
 .projectsFather   
 {
-    .textInfo
-    {
-        padding-top: 10%;
-        width: 80%;
-        padding-left: 25%;
-    }
     .bookImage
     {
       padding-top: 30px;
       width: 80px;
       height: 100px;
       transition: 0.5s ease;
+    }
+
+    .projectsChild
+    {
+      padding: 3px;
     }
 
     .bookImage:hover
@@ -76,6 +82,37 @@ section p
     padding: 30px 100px;
     width: 90%;
   }
+
+  .habilitiesFather
+  {
+    .habilitiesChild
+    {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+
+    .habilitiesImage
+    {
+      width: 100px;
+      transition: 0.5s ease;
+      margin-left: 80px;  
+    }
+
+    .habilitiesImage:hover
+    {
+      -webkit-transform: translateY(-10deg);
+      -ms-transform: translateY(-10deg);
+      transform: translateY(-10px);
+      transition: 0.5s ease;
+      
+    }
+
+    justify-content: space-between;
+    margin: 50px;
+    display: flex;
+  }
   
   .hrLine
   { 
@@ -84,6 +121,14 @@ section p
     margin-left:0;
     border-top: 1px solid rgb(25, 62, 174);
   }
+
+@media screen and (max-width: 768px)
+{
+ .projectsFather
+{
+  flex-direction: column;
+}
+}
 
 /* .projectsButtonDesign
 {
